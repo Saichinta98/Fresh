@@ -1,2 +1,2 @@
 FROM tomcat/tomcat01
-COPY target/project.war /usr/local/tomcat/webapps/project.war
+COPY target/ram*.war /usr/local/tomcat/webapps/ram.war
